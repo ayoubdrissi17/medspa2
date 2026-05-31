@@ -15,10 +15,10 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="group">
           <span className="font-serif text-lg md:text-xl text-charcoal tracking-wide block leading-none">
-            OC Aesthetics
+            Irvine Thread
           </span>
           <span className="block text-[9px] tracking-[0.2em] uppercase text-rose-gold leading-none mt-1">
-            Institute
+            Aesthetics
           </span>
         </Link>
 

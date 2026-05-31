@@ -6,7 +6,7 @@ import { REVIEWS } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Reviews",
-  description: "Read patient reviews and testimonials for OC Aesthetics Institute in Tustin, California.",
+  description: "Read patient reviews and testimonials for Irvine Thread Aesthetics in Tustin, California.",
 };
 
 export default function ReviewsPage() {

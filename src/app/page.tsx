@@ -15,25 +15,22 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-end justify-start overflow-hidden">
         <Image
-          src="/assets/stocks/svc-consultation-01.png"
-          alt="OC Aesthetics Institute"
+          src="/assets/stocks/photohome2.jpeg"
+          alt="Irvine Thread Aesthetics"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-charcoal/50" />
-        <div className="relative z-10 text-center text-white px-6 max-w-4xl">
+        <div className="absolute inset-0 bg-charcoal/20" />
+        <div className="relative z-10 text-left text-white px-6 md:px-16 max-w-3xl pb-16 md:pb-24">
           <FadeIn>
             <p className="text-rose-gold-light tracking-[0.35em] uppercase text-sm mb-4">
               {CLINIC.subtitle}
             </p>
-            <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl mb-6 leading-tight">
-              Enhance Your Natural Beauty
-            </h1>
-            <p className="text-white/80 text-lg mb-10 max-w-xl mx-auto">
+            <p className="text-white/80 text-lg mb-10 max-w-xl">
               Experience luxury aesthetic medicine with Dr Assif in the heart of Orange County.
             </p>
             <Link
@@ -43,6 +40,37 @@ export default function HomePage() {
               Explore Services
             </Link>
           </FadeIn>
+        </div>
+      </section>
+
+      {/* Medical Expertise */}
+      <section className="py-24 px-6 bg-blush/30">
+        <div className="max-w-7xl mx-auto">
+          <FadeIn>
+            <p className="text-charcoal/70 leading-relaxed text-lg text-center max-w-4xl mx-auto mb-16">
+              Irvine Thread Aesthetics brings board-certified medical precision to every treatment. Dr. Assif&apos;s decade of critical care and anesthesiology expertise ensures outcomes that are clinically superior — not just cosmetically enhanced.
+            </p>
+          </FadeIn>
+          <FadeIn>
+            <SectionTitle subtitle="Our Expertise" title="Our Specialties" />
+          </FadeIn>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+            {[
+              { icon: "💉", title: "Injectables & Fillers", detail: "Botox · Dysport · Juvederm · Voluma" },
+              { icon: "✨", title: "Laser Treatments", detail: "Nd:YAG · Erbium · Q-Switch" },
+              { icon: "🧬", title: "IV Wellness & NAD+", detail: "Peptides · Vitamins · Regenerative" },
+              { icon: "🩺", title: "Pain Procedures", detail: "Steroid Injections · Joint Care" },
+              { icon: "💧", title: "HydraFacial", detail: "Medical-Grade Skin Renewal" },
+            ].map((item, i) => (
+              <FadeIn key={item.title} delay={i * 0.05}>
+                <div className="border border-blush bg-white p-6 text-center">
+                  <span className="text-3xl block mb-3">{item.icon}</span>
+                  <h3 className="font-serif text-xl mb-1">{item.title}</h3>
+                  <p className="text-charcoal/50 text-sm">{item.detail}</p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
         </div>
       </section>
 

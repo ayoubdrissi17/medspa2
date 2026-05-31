@@ -5,7 +5,7 @@ import { CLINIC } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: `Contact OC Aesthetics Institute — ${CLINIC.phone}. Visit us at ${CLINIC.fullAddress}.`,
+  description: `Contact Irvine Thread Aesthetics — ${CLINIC.phone}. Visit us at ${CLINIC.fullAddress}.`,
 };
 
 export default function ContactPage() {
@@ -75,7 +75,7 @@ export default function ContactPage() {
           <FadeIn delay={0.15}>
             <div className="aspect-[4/3] w-full overflow-hidden border border-blush">
               <iframe
-                title="OC Aesthetics Institute location"
+                title="Irvine Thread Aesthetics location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.5!2d-117.8261!3d33.7454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd0f8b8c8c8c9%3A0x0!2zMjQ5MiBXYWxudXQgQXZlLCBUdXN0aW4sIENBIDkyNzgw!5e0!3m2!1sen!2sus!4v1"
                 width="100%"
                 height="100%"

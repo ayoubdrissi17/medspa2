@@ -7,7 +7,7 @@ import { CLINIC_SERVICES } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "PDO threads, dermal fillers, Botox, skin rejuvenation, facial contouring, lip enhancement & more at OC Aesthetics Institute, Tustin CA.",
+    "PDO threads, dermal fillers, Botox, skin rejuvenation, facial contouring, lip enhancement & more at Irvine Thread Aesthetics, Tustin CA.",
 };
 
 export default function ServicesPage() {

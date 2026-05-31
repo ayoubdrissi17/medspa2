@@ -20,22 +20,22 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "OC Aesthetics Institute | Luxury Aesthetic Medicine in Tustin, CA",
-    template: "%s | OC Aesthetics Institute",
+    default: "Irvine Thread Aesthetics | Luxury Aesthetic Medicine in Tustin, CA",
+    template: "%s | Irvine Thread Aesthetics",
   },
   description:
-    "OC Aesthetics Institute — Centre de médecine esthétique. PDO threads, Botox, dermal fillers, skin rejuvenation & facial contouring in Tustin, California.",
+    "Irvine Thread Aesthetics — Centre de médecine esthétique. PDO threads, Botox, dermal fillers, skin rejuvenation & facial contouring in Tustin, California.",
   keywords: [
     "med spa",
     "aesthetic medicine",
     "Botox Tustin",
-    "OC Aesthetics Institute",
+    "Irvine Thread Aesthetics",
     "luxury med spa California",
     "HydraFacial",
     "lip fillers",
   ],
   openGraph: {
-    title: "OC Aesthetics Institute",
+    title: "Irvine Thread Aesthetics",
     description: CLINIC.subtitle,
     type: "website",
     locale: "en_US",

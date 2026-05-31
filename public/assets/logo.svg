@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B8865E"/>
+      <stop offset="50%" stop-color="#D4AF7A"/>
+      <stop offset="100%" stop-color="#B8865E"/>
+    </linearGradient>
+  </defs>
+  <!-- Thread needle icon -->
+  <g transform="translate(8, 18)">
+    <!-- Needle -->
+    <rect x="0" y="4" width="28" height="2.5" rx="1.25" fill="url(#gold)" transform="rotate(-30, 14, 5)"/>
+    <polygon points="26,1 30,5 26,9" fill="url(#gold)" transform="rotate(-30, 14, 5)"/>
+    <!-- Thread flowing -->
+    <path d="M28 6 C34 2, 38 10, 42 6 C46 2, 50 10, 54 6" stroke="url(#gold)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <circle cx="54" cy="6" r="1.5" fill="url(#gold)"/>
+  </g>
+  <!-- Text -->
+  <text x="72" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#2C2C2C" letter-spacing="1.5">
+    IRVINE
+  </text>
+  <text x="72" y="55" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#2C2C2C" letter-spacing="1.5">
+    THREAD
+  </text>
+  <text x="201" y="55" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="400" fill="#B8865E" letter-spacing="3">
+    AESTHETICS
+  </text>
+  <!-- Thin divider -->
+  <rect x="72" y="40" width="145" height="0.5" fill="#D4AF7A" opacity="0.4"/>
+  <!-- Tagline -->
+  <text x="72" y="68" font-family="Arial, sans-serif" font-size="7" font-weight="300" fill="#999" letter-spacing="2.5">
+    LUXURY AESTHETIC MEDICINE
+  </text>
+</svg>

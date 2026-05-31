@@ -5,7 +5,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 
 export const metadata: Metadata = {
   title: "Gallery",
-  description: "View before & after results and our luxury clinic gallery at OC Aesthetics Institute.",
+  description: "View before & after results and our luxury clinic gallery at Irvine Thread Aesthetics.",
 };
 
 export default function GalleryPage() {

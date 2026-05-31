@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B8865E"/>
+      <stop offset="50%" stop-color="#D4AF7A"/>
+      <stop offset="100%" stop-color="#B8865E"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#2C2C2C"/>
+  <!-- Stylized thread needle -->
+  <g transform="translate(16, 16) rotate(-40)">
+    <rect x="-12" y="-1" width="20" height="2" rx="1" fill="url(#g)"/>
+    <polygon points="8,-2 12,0 8,2" fill="url(#g)"/>
+  </g>
+  <!-- Thread trail -->
+  <path d="M14 14 C18 10, 22 18, 26 14" stroke="url(#g)" stroke-width="1" fill="none"/>
+  <!-- ITA letters -->
+  <text x="6" y="26" font-family="Arial, sans-serif" font-size="7" font-weight="700" fill="white" letter-spacing="1">ITA</text>
+</svg>

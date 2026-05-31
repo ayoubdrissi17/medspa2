@@ -5,30 +5,24 @@ import SectionTitle from "@/components/SectionTitle";
 import { DR_ASSIF_IMAGE, CLINIC_SERVICES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "About Dr Assif | OC Aesthetics Institute",
+  title: "About Dr Assif | Irvine Thread Aesthetics",
   description:
-    "Meet Dr Assif at OC Aesthetics Institute — expert in luxury aesthetic medicine. PDO threads, fillers, Botox & more in Tustin, CA.",
+    "Meet Dr Assif at Irvine Thread Aesthetics — expert in luxury aesthetic medicine. PDO threads, fillers, Botox & more in Tustin, CA.",
 };
 
 export default function AboutPage() {
   return (
     <>
-      <section className="relative h-[50vh] flex items-end">
+      <section className="relative h-[85vh] flex items-end">
         <Image
-          src="/assets/stocks/svc-consultation-01.png"
-          alt="OC Aesthetics Institute"
+          src="/assets/stocks/about3.jpeg"
+          alt="Irvine Thread Aesthetics"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-charcoal/40" />
-        <div className="relative z-10 max-w-7xl mx-auto px-6 pb-16 w-full">
-          <FadeIn>
-            <p className="text-rose-gold-light tracking-[0.3em] uppercase text-sm mb-2">About</p>
-            <h1 className="font-serif text-5xl md:text-6xl text-white">Dr Assif</h1>
-          </FadeIn>
-        </div>
+        <div className="absolute inset-0 bg-charcoal/10" />
       </section>
 
       <section className="py-24 px-6">
@@ -62,7 +56,7 @@ export default function AboutPage() {
           <FadeIn>
             <SectionTitle subtitle="Our Purpose" title="Mission & Philosophy" light />
             <p className="text-white/70 leading-relaxed text-lg mb-6">
-              At OC Aesthetics Institute, we believe aesthetic medicine is an art form grounded in science. Our mission is to provide a sanctuary where patients receive world-class treatments in an environment of absolute luxury, privacy, and compassion.
+              At Irvine Thread Aesthetics, we believe aesthetic medicine is an art form grounded in science. Our mission is to provide a sanctuary where patients receive world-class treatments in an environment of absolute luxury, privacy, and compassion.
             </p>
             <p className="text-white/70 leading-relaxed text-lg">
               We are committed to natural enhancement, patient education, and continuous innovation — ensuring every visit reflects the premium Beverly Hills standard our patients deserve, right here in Tustin, California.

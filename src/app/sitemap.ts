@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://ocaestheticsinstitute.com";
-  const pages = ["", "/about", "/services", "/gallery", "/reviews", "/contact"];
+  const base = "https://irvinethreadaesthetics.com";
+  const pages = ["", "/about", "/ivwellness", "/lasertreatments", "/services", "/gallery", "/reviews", "/contact"];
 
   return pages.map((path) => ({
     url: `${base}${path}`,

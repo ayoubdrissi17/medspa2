@@ -14,7 +14,7 @@ export const CLINIC_SERVICES: Service[] = [
     description: "Non-surgical lifting to enhance facial contours with natural-looking results.",
     price: "Consultation required",
     benefits: ["Natural lift", "Defined jawline", "Minimal downtime"],
-    image: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.51.29.jpeg",
+    image: "/assets/stocks/svc-pdo-threads-01.png",
   },
   {
     id: "dermal-fillers",
@@ -22,7 +22,7 @@ export const CLINIC_SERVICES: Service[] = [
     description: "Restore volume, define features, and create balanced facial harmony.",
     price: "Consultation required",
     benefits: ["Restored volume", "Balanced features", "Elegant results"],
-    image: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.51.30 (2).jpeg",
+    image: "/assets/stocks/svc-anti-aging-treatments-01.png",
   },
   {
     id: "botox",
@@ -46,7 +46,7 @@ export const CLINIC_SERVICES: Service[] = [
     description: "Enhance facial definition for a more sculpted and refined look.",
     price: "Consultation required",
     benefits: ["Sculpted jawline", "Refined contours", "Harmonious profile"],
-    image: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.51.30 (1).jpeg",
+    image: "/assets/stocks/svc-facial-contouring-01.png",
   },
   {
     id: "under-eye",
@@ -70,7 +70,7 @@ export const CLINIC_SERVICES: Service[] = [
     description: "Lift and refresh the appearance without surgery.",
     price: "Consultation required",
     benefits: ["Visible lift", "No surgery", "Refreshed look"],
-    image: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.51.30.jpeg",
+    image: "/assets/stocks/svc-non-surgical-face-lift-01.png",
   },
   {
     id: "anti-aging",
@@ -90,7 +90,7 @@ export const CLINIC_SERVICES: Service[] = [
   },
 ];
 
-export const DR_ASSIF_IMAGE = "/assets/stocks/portrait-dr-assif-01.png";
+export const DR_ASSIF_IMAGE = "/assets/stocks/doctorassif2.jpeg";
 
 export const FEATURED_SERVICES = CLINIC_SERVICES.filter((s) =>
   ["pdo-threads", "botox", "lip-enhancement"].includes(s.id)
@@ -113,135 +113,202 @@ export const BEFORE_AFTER: BeforeAfterItem[] = [
   {
     id: 1,
     category: "lifting",
-    label: "Jawline & Cheek Lift",
-    before: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (1).jpeg",
+    label: "Facelift Transformation",
+    before: "/assets/stocks/Before - After1.jpeg",
   },
   {
     id: 2,
-    category: "injectables",
-    label: "Lip & Under-Eye Refinement",
-    before: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (2).jpeg",
+    category: "lifting",
+    label: "Jawline Definition",
+    before: "/assets/stocks/Before - After2.jpeg",
   },
   {
     id: 3,
     category: "lifting",
-    label: "Total Facial Harmony",
-    before: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (3).jpeg",
+    label: "Cheek Enhancement",
+    before: "/assets/stocks/Before - After3.jpeg",
   },
   {
     id: 4,
-    category: "lifting",
-    label: "Mid-Face Lift & Jaw Contour",
-    before: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (4).jpeg",
+    category: "injectables",
+    label: "Lip Enhancement Results",
+    before: "/assets/stocks/Before - After4.jpeg",
   },
   {
     id: 5,
     category: "injectables",
-    label: "Tear Trough & Under-Eye Correction",
-    before: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (5).jpeg",
+    label: "Facial Harmony Treatment",
+    before: "/assets/stocks/Before - After5(2).jpeg",
   },
   {
     id: 6,
     category: "injectables",
-    label: "Cheek Volume & Nasolabial Softening",
-    before: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (6).jpeg",
+    label: "Under-Eye Correction",
+    before: "/assets/stocks/Before - After6.jpeg",
   },
   {
     id: 7,
     category: "skin",
-    label: "Wrinkle Relaxer — Eye Area",
-    before: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (7).jpeg",
+    label: "Skin Rejuvenation Results",
+    before: "/assets/stocks/Before - After7.jpeg",
   },
   {
     id: 8,
     category: "skin",
-    label: "Skin Rejuvenation — Laser Glow",
-    before: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08.jpeg",
+    label: "Skin Texture Improvement",
+    before: "/assets/stocks/Before - After8.jpeg",
   },
 ];
 
 export const GALLERY_IMAGES = [
-  // Premium Treatment Illustrations
+  // Lifting treatment photos
   {
     id: 1,
     category: "lifting" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.51.29.jpeg",
-    alt: "PDO Thread Lift Treatment in Progress",
+    src: "/assets/stocks/Lifting1.jpeg",
+    alt: "Lifting Treatment",
   },
   {
     id: 2,
-    category: "injectables" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.51.30 (2).jpeg",
-    alt: "Dermal Filler Jaw Styling Treatment",
+    category: "lifting" as const,
+    src: "/assets/stocks/Lifting2.jpeg",
+    alt: "Facial Lifting Procedure",
   },
   {
     id: 3,
     category: "lifting" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.51.30 (1).jpeg",
-    alt: "Facial Contouring Consult",
+    src: "/assets/stocks/Lifting3.jpeg",
+    alt: "Lift & Contour Results",
   },
   {
     id: 4,
     category: "lifting" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.51.30.jpeg",
-    alt: "Non-Surgical Face Lift Consultation",
+    src: "/assets/stocks/Lifting4.jpeg",
+    alt: "Face Lift Consultation",
   },
-  // Real Patient Transformations (Before & Afters)
+  // Injectable treatment photos
   {
     id: 5,
-    category: "lifting" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (1).jpeg",
-    alt: "Jawline & Cheek Lift Results",
+    category: "injectables" as const,
+    src: "/assets/stocks/Injectebales1.jpeg",
+    alt: "Injectable Treatment",
   },
   {
     id: 6,
     category: "injectables" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (2).jpeg",
-    alt: "Lip & Under-Eye Refinement Results",
+    src: "/assets/stocks/Injectebales2.jpeg",
+    alt: "Dermal Filler Session",
   },
   {
     id: 7,
-    category: "lifting" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (3).jpeg",
-    alt: "Total Facial Harmony Results",
+    category: "injectables" as const,
+    src: "/assets/stocks/Injectebales3.jpeg",
+    alt: "Lip Enhancement Procedure",
   },
   {
     id: 8,
-    category: "lifting" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (4).jpeg",
-    alt: "Mid-Face Lift & Jaw Contour Results",
+    category: "injectables" as const,
+    src: "/assets/stocks/Injectebales4.jpeg",
+    alt: "Botox Treatment",
   },
+  // Skin treatment photos
   {
     id: 9,
-    category: "injectables" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (5).jpeg",
-    alt: "Tear Trough & Under-Eye Correction Results",
+    category: "skin" as const,
+    src: "/assets/stocks/Skin1.jpeg",
+    alt: "Skin Rejuvenation Treatment",
   },
   {
     id: 10,
-    category: "injectables" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (6).jpeg",
-    alt: "Cheek Volume & Nasolabial Softening Results",
+    category: "skin" as const,
+    src: "/assets/stocks/Skin2.jpeg",
+    alt: "Skin Care Procedure",
   },
   {
     id: 11,
     category: "skin" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08 (7).jpeg",
-    alt: "Wrinkle Relaxer — Eye Area Results",
+    src: "/assets/stocks/Skin3.jpeg",
+    alt: "Facial Skin Treatment",
   },
   {
     id: 12,
     category: "skin" as const,
-    src: "/assets/stocks/WhatsApp Image 2026-05-29 at 04.37.08.jpeg",
-    alt: "Skin Rejuvenation — Laser Glow Results",
+    src: "/assets/stocks/Skin4.jpeg",
+    alt: "Skin Therapy Session",
   },
-  // Other high quality clinic assets
   {
     id: 13,
+    category: "skin" as const,
+    src: "/assets/stocks/Skin5.jpeg",
+    alt: "Advanced Skin Care",
+  },
+  // Clinic environment photos
+  {
+    id: 14,
     category: "clinic" as const,
     src: "/assets/stocks/svc-consultation-01.png",
-    alt: "Aesthetic Treatment Consultation Room",
-  }
+    alt: "Consultation Room",
+  },
+  {
+    id: 15,
+    category: "clinic" as const,
+    src: "/assets/stocks/clinic1.jpeg",
+    alt: "Clinic Environment",
+  },
+  {
+    id: 16,
+    category: "clinic" as const,
+    src: "/assets/stocks/clinic2.jpeg",
+    alt: "Clinic Interior View",
+  },
+  {
+    id: 17,
+    category: "clinic" as const,
+    src: "/assets/stocks/Clinic.jpeg",
+    alt: "Luxury Clinic Space",
+  },
+  {
+    id: 18,
+    category: "clinic" as const,
+    src: "/assets/stocks/Clinic3.jpeg",
+    alt: "Clinic Treatment Area",
+  },
+  {
+    id: 19,
+    category: "clinic" as const,
+    src: "/assets/stocks/Clinic5.jpeg",
+    alt: "Clinic Waiting Area",
+  },
+  {
+    id: 20,
+    category: "clinic" as const,
+    src: "/assets/stocks/Clinic6.jpeg",
+    alt: "Medical Suite",
+  },
+  {
+    id: 21,
+    category: "clinic" as const,
+    src: "/assets/stocks/Clinic7.jpeg",
+    alt: "Clinic Reception",
+  },
+  {
+    id: 22,
+    category: "clinic" as const,
+    src: "/assets/stocks/Clinic8.jpeg",
+    alt: "Treatment Room",
+  },
+  {
+    id: 23,
+    category: "clinic" as const,
+    src: "/assets/stocks/Clinic9.jpeg",
+    alt: "Clinic Detail",
+  },
+  {
+    id: 24,
+    category: "clinic" as const,
+    src: "/assets/stocks/Clinic10.jpeg",
+    alt: "Clinic Ambiance",
+  },
 ];
 
 export const GALLERY_FILTERS = ["all", "lifting", "injectables", "skin", "clinic", "before-after"] as const;
@@ -268,7 +335,7 @@ export const TESTIMONIALS = [
   {
     name: "Amanda K.",
     rating: 5,
-    text: "I've been to many med spas in Orange County. OC Aesthetics Institute is in a league of its own.",
+    text: "I've been to many med spas in Orange County. Irvine Thread Aesthetics is in a league of its own.",
     date: "2 months ago",
   },
 ];

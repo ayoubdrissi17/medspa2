@@ -1,5 +1,5 @@
 export const CLINIC = {
-  name: "OC Aesthetics Institute",
+  name: "Irvine Thread Aesthetics",
   subtitle: "Centre de médecine esthétique",
   phone: "+1 (949) 466-3173",
   phoneRaw: "19494663173",
@@ -7,7 +7,8 @@ export const CLINIC = {
   city: "Tustin, California 92780",
   fullAddress: "2492 Walnut Ave. Suite 268, Tustin, California 92780",
   instagram: [
-    { handle: "@ocaestheticsinstitute", url: "https://instagram.com/ocaestheticsinstitute" },
+    { handle: "@Dr_assif_medspa", url: "https://instagram.com/Dr_assif_medspa" },
+    { handle: "@Assif.medspa", url: "https://instagram.com/Assif.medspa" },
   ],
   whatsapp: "https://wa.me/19494663173",
   mapsEmbed:
@@ -18,6 +19,8 @@ export const NAV_LINKS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
+  { href: "/lasertreatments", label: "Laser Treatments" },
+  { href: "/ivwellness", label: "IV Wellness" },
   { href: "/gallery", label: "Gallery" },
   { href: "/reviews", label: "Reviews" },
   { href: "/contact", label: "Contact" },
